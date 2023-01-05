@@ -1,0 +1,217 @@
+/**************** Généralités ***************/
+
+*{
+    margin : 0px;
+    padding : 0px; 
+}
+
+h1, h3 {
+    color: blueviolet;
+    clear: both;
+    text-align: center;
+}
+
+
+
+/****************  début header ***************/
+
+header {
+    background-image : linear-gradient(180deg, #fdfe15, white 40%);
+    position: relative;
+}
+
+.container_img_logo > img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/***** début nav header ********/
+
+ul {
+    list-style:none;
+    position: absolute;
+    top : 15%; 
+    width : 100%;
+    
+}
+
+ul li {
+    border : 7px solid white; 
+    border-radius: 50%;
+    color : white;
+    background-color :blueviolet;
+    margin-left: 3rem;
+}
+
+ul li.float_left {
+    float:left;
+    padding:0.5rem;
+}
+
+ul li.float_right {
+    float : right;
+    padding : 0.5rem;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-weight : bold;
+    padding-inline : 7px;
+}
+
+/***** fin nav header ********/
+
+.retour_lord {
+    display: flex;
+    gap: 5%;
+    align-items : center;
+    margin-block : 10px;
+}
+
+.scripture {
+    text-align: justify;
+    max-width: 400px;
+    margin-top: 1rem;
+}
+
+cite {
+    margin-top: 2rem;
+}
+
+.container_img_logo {
+    text-align:center;
+}
+
+div h1 + p {
+    color: blueviolet;
+    font-size: 2.6rem;
+}
+
+div > h1 {
+    font-size: 2.8rem;
+}
+/**************** fin header ***************/
+
+/*************** début footer *************/
+
+footer  {
+    background-image : linear-gradient(0deg, #fdfe15, white 40%);
+    
+}
+
+.vision {
+text-align: center;
+border: 1px solid blueviolet;
+width: 300px;
+margin : 0 auto;
+ }
+ 
+ 
+/*************** fin footer *************/
+
+/**************************************** 
+            Généralités 
+***************************************/
+
+/***********************************************
+Partie réservée aux main
+*********************************************/
+
+
+/*************** début main accueil *************/
+
+.service > div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div > figure {
+    flex-basis: 33%;
+}
+
+.service > div:nth-child(1),  div:nth-child(3){
+    justify-content: center;
+   
+}
+
+figcaption {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/*************** fin main accueil *************/
+
+
+/*************** début main menu *************/
+
+        /********* child1 *************/
+.local_church_div_child1 {
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+   
+   
+}
+
+.local_church_div_child1 > div {
+    flex-basis : 25%;
+    
+}
+
+.local_church_div_child1 > div > img {
+    width : 100%;
+     height :auto;
+     border-top-left-radius: 20%;
+     border-bottom-right-radius: 20%;
+}
+
+     /********* child2 *************/
+.local_church_div_child2 {
+    display: flex;
+     justify-content: space-around; 
+}
+
+.local_church_div_child2 > div {
+    flex-basis : 25%;
+}
+
+.local_church_div_child2 > div > img {
+    width : 100%;
+     height :auto;
+     border-top-right-radius: 20%;
+     border-bottom-left-radius: 20%;
+}
+
+
+   /********* child3 *************/
+.local_church_div_child3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.local_church_div_child3 > div {
+    flex-basis : 25%;
+}
+
+.local_church_div_child3 > div > img {
+    width : 100%;
+     height :auto;
+     border-radius: 20%;
+}
+
+/* .local_church > div {
+    flex-basis : 25%;
+}
+
+.local_church > div > img {
+    width : 100%;
+     height :auto;
+     border-radius: 20%;
+} */
+
+.local_church > div:nth-child(2) {
+    gap : 10px;
+}
+/*************** début main accueil *************/
